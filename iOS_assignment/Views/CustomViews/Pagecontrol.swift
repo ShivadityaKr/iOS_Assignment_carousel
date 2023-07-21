@@ -10,9 +10,6 @@ import SwiftUI
 struct PageControl: View {
     var numberOfPages: Int
     @Binding var currentPage: Int
-    
-
-    
     var body: some View {
         HStack(spacing: 10) {
             ForEach(0..<numberOfPages, id: \.self) { pageIndex in

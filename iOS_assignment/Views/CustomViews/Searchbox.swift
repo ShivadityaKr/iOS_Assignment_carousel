@@ -10,7 +10,6 @@ import SwiftUI
 struct SearchBarView: View {
     @Binding var searchText: String
     var onEditingChanged: (Bool) -> Void
-
     var body: some View {
         ZStack {
             Color.gray
